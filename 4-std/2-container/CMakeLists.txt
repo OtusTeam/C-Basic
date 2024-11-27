@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.12)
+project(cpp_basic_containers)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_executable(1_array              1_array.cpp)
+add_executable(2_vector             2_vector.cpp)
+add_executable(3_0_list             3_0_list.cpp)
+add_executable(3_1_linked_list      3_0_list.cpp)
+add_executable(3_2_linked_list_itr  3_2_linked_list_itr.cpp)
+add_executable(3_3_array_itr        3_3_array_itr.cpp)
+add_executable(3_4_arr_vec_list     3_4_arr_vec_list.cpp)
+add_executable(4_map                4_map.cpp)
+add_executable(5_unordered_map      5_unordered_map.cpp)
+add_executable(6_deque              6_deque.cpp)

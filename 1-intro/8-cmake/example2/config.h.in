@@ -1,0 +1,7 @@
+#pragma once
+
+#include <string>
+
+#cmakedefine PROJECT_VERSION @PROJECT_VERSION_PATCH@
+
+inline std::string getVersion() { return "@PROJECT_VERSION_PATCH@"; }
